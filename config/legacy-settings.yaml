@@ -1,0 +1,15 @@
+# DEPRECATED-RUNBOOK-MARKER-7QF3
+# Legacy settings: superseded by config/v2/settings.yaml (migration plan MGR-2041)
+database:
+  host: "old-db.internal"
+  port: 5432
+  ssl_enabled: false
+  pool_size: 10
+timeout_ms: 30000
+logging:
+  level: debug
+  sinks:
+    - file: /var/log/legacy-app.log
+rotation:
+  enabled: true
+  max_size_mb: 1024
