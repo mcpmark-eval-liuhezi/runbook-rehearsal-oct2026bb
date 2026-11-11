@@ -1,6 +1,0 @@
-# DEPRECATED-RUNBOOK-MARKER-7QF3
-# Legacy feature flags: replaced by the centralized feature-flags service v2
-legacy_auth_enabled: true
-legacy_cache_backend: "memcached"
-legacy_cron_jobs: true
-legacy_session_ttl_hours: 24
